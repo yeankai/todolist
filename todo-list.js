@@ -29,7 +29,7 @@ function refreshTodoList(todoItem) {
     li.innerHTML = `<label for="${todoItem.id}"class="tick"></label>
     <input type="checkbox" id="${todoItem.id}">
     <span>${todoItem.task}</span>
-    <button class="delete"><img src="Documents/Images/remove (1).png"></button>`
+    <button class="delete"><img src="Images/remove (1).png"></button>`
 
     if (oldItem) {
         ul.replaceChild(li,oldItem);
